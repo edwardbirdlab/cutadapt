@@ -14,6 +14,8 @@
     :alt: install with bioconda
 
 
+For edwardbirdlab:
+
 No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
 
 This container is now available from docker hub, and can be run as below:
