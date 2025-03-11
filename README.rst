@@ -21,6 +21,7 @@ No modifications have been made to code, just the addition of a dockerfile with 
 This container is now available from docker hub, and can be run as below:
 
 apptainer build cutadapt.sif docker://ebird013/cutadapt:latest
+
 apptainer exec cutadapt.sif sickle --help
 
 ========
