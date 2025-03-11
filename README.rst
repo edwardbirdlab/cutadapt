@@ -13,6 +13,16 @@
     :target: http://bioconda.github.io/recipes/cutadapt/README.html
     :alt: install with bioconda
 
+## No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
+
+This container is now available from docker hub, and can be run as below:
+
+```
+apptainer build cutadapt.sif docker://ebird013/cutadapt:latest
+
+apptainer exec cutadapt.sif sickle --help
+```
+
 
 ========
 Cutadapt
